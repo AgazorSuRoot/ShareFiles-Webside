@@ -1,0 +1,104 @@
+
+/* Reset default browser style */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* All elements will inherit this style */
+body {
+	font-family: "Times New Roman", Times, serif;
+	background: #76b852; /* fallback for old browsers */
+	background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+	background: -moz-linear-gradient(right, #76b852, #8DC26F);
+	background: -o-linear-gradient(right, #76b852, #8DC26F);
+	background: linear-gradient(to left, #76b852, #8DC26F);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;  
+}
+
+/* The div header of the webpage. */
+#header {
+	border-radius: 5px;
+    list-style-type: none;
+    
+    /* margin: 0 auto; /* si queremos centrarlo */
+
+    /* top and left external separation */
+    /*
+		margin-left: 10px;
+    	margin-right: 150px;
+    	margin-top: 10px;
+    */
+
+    /* top and left internal separation */
+    padding-top: 1em; 
+    padding-left:10%;
+   
+
+    /* la altura y su ancho dependerán de los textos */
+    height: 100px; 
+    width: 90%;
+    /* el color de fondo */
+    background: #55DD88;
+    
+}
+
+ul, ol {
+	list-style:none;
+}
+			
+.nav > li {
+	float:left;
+}
+			
+.nav li a {
+	background-color:#000;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+			
+.nav li a:hover {
+	background-color:#434343;
+}
+			
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+			
+.nav li:hover > ul {
+	display:block;
+}
+			
+.nav li ul li {
+	position:relative;
+}
+			
+.nav li ul li ul {
+	right:140px;
+	top:0px;
+}
+
+/* accessPage */
+#accessPage {
+	background-color: red;
+	height: 500px; 
+    width: 75%;
+    margin: 0 auto;
+}
+
+#logging {
+	background-color: blue;
+	width: 40%;
+	height: 100%;
+	float: right;
+}
